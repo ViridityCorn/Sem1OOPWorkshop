@@ -1,16 +1,11 @@
 package domain;
 
-public class VentilationActuator extends Actuator{
-    @Override
-    public void setValue(double value) {
-        super.setValue(value);
-    }
-
+public class VentilationActuator extends Actuator {
     @Override
     public String toString() {
         return "VentilationActuator{" +
                 "name=" + getName() + '\'' +
-                "value=" + value +
+                "value=" + getValue() +
                 '}';
     }
 }
